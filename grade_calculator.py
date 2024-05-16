@@ -18,5 +18,6 @@ if __name__ == '__main__':
     # Call the calculate_average_grade function
     student_name, average_grade = calculate_average_grade()
 
-    # Print the student's name and their average grade
-print("The average grade of",student_name,"is", average_grade)
+    # Print name and grade and show as possible float 
+    print(f"The average grade of {student_name} is {int(average_grade)}") 
+    
