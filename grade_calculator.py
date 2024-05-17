@@ -1,3 +1,5 @@
+import pytest
+
 def calculate_average_grade():
     # Prompt the user for their name and store it in the student_name variable
     student_name = input("What is the students name: ")
@@ -20,4 +22,3 @@ if __name__ == '__main__':
 
     # Print name and grade and show as possible float 
     print(f"The average grade of {student_name} is {int(average_grade)}") 
-    
